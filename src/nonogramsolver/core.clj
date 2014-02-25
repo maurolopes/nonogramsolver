@@ -43,4 +43,4 @@
             (l/everyg #(fd/in % (fd/domain 0 1)) cells)
             (l/== q rows)
             (solve-rows row-spec rows)
-            #_(solve-rows col-spec cols)))))
+            (solve-rows col-spec cols)))))
